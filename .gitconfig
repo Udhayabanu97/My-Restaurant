@@ -1,0 +1,11 @@
+[includeIf "gitdir:D:/Udhaya"] # include for all .git projects under Personal/ 
+path = ~/.gitconfig.udhaya
+ 
+[includeIf "gitdir:C:/Users/<user_name>/Comapny/"] # include for all .git projects under Company/
+path = ~/.gitconfig.dhina  
+ 
+[core]
+excludesfile = ~/.gitignore      # Ignore .gitconfig files valid everywhere
+[user]
+	email = banumadhiudhaya@gmail.com
+	name = Udhayabanu97
