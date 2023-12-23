@@ -6,6 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 import food1 from "../images/food-image1.jpeg";
 import food2 from "../images/food-image2.jpeg";
 import food3 from "../images/food-image3.jpeg";
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
               <img
                 src={food1}
                 className="d-block w-100 img-fluid"
-                alt="food image"
+                alt="food banner"
                 style={{ height: "90vh", width: "100%" }}
               />
             </div>
@@ -29,7 +30,7 @@ const Home = () => {
               <img
                 src={food2}
                 className="d-block w-100 img-fluid"
-                alt="food image"
+                alt="food banner"
                 style={{ height: "90vh", width: "100%" }}
               />
             </div>
@@ -37,7 +38,7 @@ const Home = () => {
               <img
                 src={food3}
                 className="d-block w-100 img-fluid"
-                alt="food image"
+                alt="food banner"
                 style={{ height: "90vh", width: "100%" }}
               />
             </div>

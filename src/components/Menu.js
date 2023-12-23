@@ -5,6 +5,7 @@ import menu3 from "../images/menu3.jpeg";
 import menu4 from "../images/menu4.jpeg";
 import menu5 from "../images/menu5.jpeg";
 import menu6 from "../images/menu6.jpeg";
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 const Menu = () => {
   return (
@@ -21,7 +22,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu1}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
@@ -39,7 +40,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu2}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
@@ -57,7 +58,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu3}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
@@ -77,7 +78,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu4}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
@@ -95,7 +96,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu5}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
@@ -113,7 +114,7 @@ const Menu = () => {
             <div className="card">
               <img
                 src={menu6}
-                alt="Food image"
+                alt="Menu Items"
                 className="img-fluid"
                 style={{ height: "400px", width: "100%" }}
               />
